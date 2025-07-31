@@ -37,7 +37,11 @@ pip install bt
 
 ## Uso
 
-1. **Configurar APIs**: Obtener y configurar las API keys necesarias
+1. **Configurar APIs**: 
+   - Obtener API keys gratuitas de [Alpha Vantage](https://www.alphavantage.co/support/#api-key) y [Financial Modeling Prep](https://financialmodelingprep.com/developer)
+   - Copiar `config_example.py` a `config.py` y agregar tus API keys
+   - Reemplazar `YOUR_ALPHA_VANTAGE_API_KEY` y `YOUR_FINANCIAL_MODELING_PREP_API_KEY` en los notebooks
+
 2. **Seleccionar análisis**: Elegir el módulo de análisis apropiado
 3. **Configurar parámetros**: Especificar ticker objetivo y parámetros
 4. **Ejecutar análisis**: Correr el notebook correspondiente

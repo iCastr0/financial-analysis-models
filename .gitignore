@@ -36,6 +36,7 @@ MANIFEST
 *apikey*
 *secret*
 *token*
+config.py
 
 # Data files
 *.csv
